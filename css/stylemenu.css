@@ -1,0 +1,155 @@
+body{
+    background-image: url(../images/baggrundside.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+
+/* Global */
+
+header{
+	background-image: url(../images/Beton.jpg);
+	border: 0.313em solid black;
+	width: 100%;
+	height: 7.500em;
+	font-size: 100%;
+	background-position: top;
+    margin: 0;
+}
+
+#tog{
+	width: 20%;
+	position: relative;
+	top: -5px;
+	right: -80px; 
+}
+
+#danskflag{
+	width: 2%;
+	float: right;
+	position: relative;
+	right: -10px;
+	top: 17px;
+}
+
+#engelskflag{
+	width: 2%;
+	float: right;
+	margin: 1.063em;
+}
+
+#logo{
+	text-decoration: none;
+	color: white;
+	font-size: 3.334em;
+	padding: 0% 0% 0% 2.5%;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+nav{
+	margin-top: -1.875em;
+}
+
+.menubar{
+	list-style: none;
+}
+
+.menubar li#menuafstand{
+	float: left;
+	padding-left: 36.16%;
+}
+
+.menubar li#pakkeafstand{
+	float: left;
+	padding-left: 7%;
+}
+
+.menubar li#om{
+	float: left;
+	padding-left: 7%;
+}
+
+.menubar li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.375em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.menubar li a.menu{
+}
+
+
+.plan-title {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 20px;}
+
+body{
+background-image: url(../images/Baggrund.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%;
+
+} 
+.article{
+    background-image: url(../images/beton.jpg);
+    opacity: 0.85;
+    padding:4px 10px 10px 25px;  
+    margin: 100px;
+    border: 3px #333 solid; 
+    border-radius: 25px;
+    
+}
+#menu{
+    text-align: center;
+}
+.article p{
+    color: #000000;   
+}
+.tider{
+    text-align: center;
+}
+.pris{
+    float: right;
+}
+
+footer {
+   background-image: url(../images/beton.jpg);
+   position: absolute;
+   width: 100%;
+   background-position: bottom;
+   max-height: 250px;
+    max-width:
+    
+}
+article.kontakt {
+  float: left;
+    padding: 0px;
+    margin: 10px 50px 10px 150px;
+}
+
+article.åbnningstider {
+   float: left;
+    padding: 10px;
+    margin-right: 75px;
+}
+article.følg-os {
+    float: left;
+    padding: 10px;
+    margin-right: 75px;
+}
+.facebookicon {
+    width: 50px;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+.instagramicon {
+    
+    width: 50px;
+    float: left;
+    margin: 10px;
+}

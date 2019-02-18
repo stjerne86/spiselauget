@@ -1,0 +1,363 @@
+body{
+    background-image: url(../images/baggrundside.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+
+/* Global */
+
+header{
+	background-image: url(../images/Beton.jpg);
+	border: 0.313em solid black;
+	width: 100%;
+	height: 7.500em;
+	font-size: 100%;
+	background-position: top;
+    margin: 0;
+}
+
+#tog{
+	width: 20%;
+	position: relative;
+	top: -5px;
+	right: -80px; 
+}
+
+#danskflag{
+	width: 2%;
+	float: right;
+	position: relative;
+	right: -10px;
+	top: 17px;
+}
+
+#engelskflag{
+	width: 2%;
+	float: right;
+	margin: 1.063em;
+}
+
+#logo{
+	text-decoration: none;
+	color: white;
+	font-size: 3.334em;
+	padding: 0% 0% 0% 2.5%;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+nav{
+	margin-top: -1.875em;
+}
+
+.menubar{
+	list-style: none;
+}
+
+.menubar li#menuafstand{
+	float: left;
+	padding-left: 36.16%;
+}
+
+.menubar li#pakkeafstand{
+	float: left;
+	padding-left: 7%;
+}
+
+.menubar li#om{
+	float: left;
+	padding-left: 7%;
+}
+
+.menubar li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.375em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.menubar li a.menu{
+}
+
+
+.plan-title {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* pakkeløsninger */
+
+#art1{
+    margin-top:-100px;
+}
+
+.pakkeløsning {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  width: 100%;
+  max-width: 1500px;
+  max-height: 1000px;
+  margin: 150px 200px;
+}
+.pakkeløsning img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+}
+.pakkeløsning .plan1 {
+  margin: 0;
+  width: 25%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  border: 3px solid #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-image: url(../images/v%C3%A6rksted.jpg);
+  background-size: cover;
+}
+.pakkeløsning .plan2 {
+  margin: 0;
+  width: 25%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  border: 3px solid #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-image: url(../images/rundvisning.jpg);
+  background-size: cover;
+    
+}
+.pakkeløsning .plan3 {
+  margin: 0;
+  width: 25%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  border: 3px solid #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-image: url(../images/aften.jpg);
+  background-size: cover;
+
+  
+}
+
+.pakkeløsning .plan {
+  margin: 0;
+  width: 25%;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  border: 3px solid #442232;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-image: url(../images/aften.jpg);
+  background-size: cover;
+
+  
+}
+.pakkeløsning .plan:hover i,
+.pakkeløsning .plan.hover i {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.pakkeløsning * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+.pakkeløsning header {
+  background-image: url(../images/beton.jpg);
+  color: #ffffff;
+}
+.pakkeløsning .plan-title {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  margin: 0;
+  padding: 20px 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.pakkeløsning .plan-title:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 300px 0 0;
+  border-color: rgba(0, 0, 0, 0.5) transparent transparent;
+}
+
+.pakkeløsning .plan-features {
+  padding: 100 10 20px;
+  margin: 40px 0px 0px 0px;
+  list-style: outside none none;
+  
+}
+.pakkeløsning .plan-features li {
+  padding: 10px 5%;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.pakkeløsning .plan-features i {
+  margin-right: 8px;
+  color: rgba(0, 0, 0, 0.5);
+    
+}
+.pakkeløsning .plan-select {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+.pakkeløsning .plan-select a {
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 0.75em;
+  font-weight: 600;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+    border: 1px #ffffff solid;
+}
+.pakkeløsning .plan-select a:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.pakkeløsning .featured {
+  margin-top: -10px;
+  border-color: #331926;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  border-radius: 8px;
+}
+.pakkeløsning .featured .plan-select {
+  padding: 30px 20px;
+}
+@media only screen and (max-width: 767px) {
+  .pakkeløsning .plan {
+    width: 50%;
+  }
+  .pakkeløsning .plan-title,
+  .pakkeløsning .plan-select a {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .pakkeløsning .plan-select,
+  .pakkeløsning .featured .plan-select {
+    padding: 20px;
+  }
+  .pakkeløsning .featured {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .pakkeløsning .plan {
+    width: 100%;
+  }
+}
+
+.plan-features{
+    background-image: url(../images/betonopa.png);
+    
+    
+}
+.plan-features li{
+    color: #FFFFFF;
+}
+
+/* Overskrift */
+
+#h1pakke{
+    color: #eee;
+    margin: 25px 55px;
+    position: relative;
+    right:770px;
+    z-index: -1;
+}
+
+/* Bokse */
+
+.boks{
+    background-image: url(../images/beton.jpg);
+    opacity: 0.85;
+    padding:4px 10px 10px 25px;
+    margin: 25px 55px;
+    border: 3px #333 solid;
+}
+
+section h2{
+    margin:5px 0 7px 0;
+}
+
+section p{
+    color: #000;
+    margin: 0;
+}
+
+
+/* Btn */
+
+.btn{
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+}
+
+.btn:hover{
+    background: #eaeaea;
+    color: #333;
+}
+
+
+
+footer {
+   background-image: url(../images/beton.jpg);
+   position: absolute;
+   width: 100%;
+   background-position: bottom;
+   max-height: 250px;
+    max-width:
+    
+}
+article.kontakt {
+  float: left;
+    padding: 0px;
+    margin: 10px 50px 10px 150px;
+}
+
+article.åbnningstider {
+   float: left;
+    padding: 10px;
+    margin-right: 75px;
+}
+article.følg-os {
+    float: left;
+    padding: 10px;
+    margin-right: 75px;
+}
+.facebookicon {
+    width: 50px;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+.instagramicon {
+    
+    width: 50px;
+    float: left;
+    margin: 10px;
+}

@@ -1,0 +1,38 @@
+body{
+    background-image:url(../images/baggrundside.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#boks1{
+    background-image: url(../images/beton.jpg);
+    border: 3px #000000 solid;
+    border-radius: 25px;
+    margin: 10%;
+    padding: 100px; 
+}
+
+#videoforside{
+    position:inherit;
+    right: 0;
+    bottom: 0;
+    max-height: 100%;   
+    max-width: 100%;
+    border: 3px #000000 solid;
+    border-radius: 25px;
+}
+
+.videoboks{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    max-width: 771px;
+    max-height: 100px;
+    margin-bottom:-90px;
+    border: 3px #000000 solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+
